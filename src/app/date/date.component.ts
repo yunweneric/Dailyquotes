@@ -17,8 +17,6 @@ export class DateComponent implements OnInit {
   finale: any;
 
   ngOnInit(): void {
-    // console.log(typeof(this.time));
-    // console.log((this.time));
     setInterval(() => {
       this.time = new Date().getHours();
       this.hr = new Date().getHours();
@@ -28,15 +26,15 @@ export class DateComponent implements OnInit {
       console.log(this.time);
       this.hours = new Date().getHours();
       console.log(this.hours);
-      if (this.hours < 10) {
+      if (this.hours > 0 && this.hours < 12) {
         this.message = 'Good Morning';
         // console.log(this.message);
       } else if (this.hours > 12 && this.hours < 15) {
         this.message = 'Good Afternoon';
         // console.log(this.message);
-      } else if (this.hours > 15) {
+      } else if (this.hours > 15 && this.hours < 20) {
         this.message = 'Good Evening';
-      } else if (this.hours > 21) {
+      } else if (this.hours > 21 && this.hours < 0) {
         this.message = 'Good Night';
       }
       console.log(this.message);

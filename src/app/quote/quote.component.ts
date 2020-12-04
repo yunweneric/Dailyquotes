@@ -18,8 +18,8 @@ factor: any;
       this.collection = data;
       this.collection = this.collection[this.factor];
 
-      console.log(this.factor);
-      console.log(this.collection[this.factor]);
+      // console.log(this.factor);
+      // console.log(this.collection[this.factor]);
       
     })
 
