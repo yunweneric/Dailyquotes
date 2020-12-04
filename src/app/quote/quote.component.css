@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital@1&family=Satisfy&display=swap");
+.quotes {
+  padding: 20px 30px;
+  margin: 5vh 40px 0 40px;
+  box-shadow: -1px -1px 5px 0px rgba(219, 219, 219, 1);
+  font-weight: 100;
+  /* height: 40vh; */
+  max-height: 40vh;
+}
+.quotes p:nth-child(1) {
+  margin: 10px 0 0 0;
+  font-family: "Montserrat", "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+}
+.quotes p:nth-child(2) {
+  margin: 50px 0 0 0;
+  text-align: end;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "satisfy", "Montserrat", "Lato", sans-serif;
+}

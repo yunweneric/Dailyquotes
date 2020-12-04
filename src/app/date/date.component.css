@@ -1,0 +1,9 @@
+.date{
+    padding: 80px 0;
+    background: #0190FF;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* height: 30vh; */
+    /* max-height: 40vh; */
+    /* overflow: hidden; */
+}
