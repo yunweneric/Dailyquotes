@@ -26,15 +26,15 @@ export class DateComponent implements OnInit {
       console.log(this.time);
       this.hours = new Date().getHours();
       console.log(this.hours);
-      if (this.hours > 0 && this.hours < 12) {
+      if (this.hours >= 0 && this.hours < 12) {
         this.message = 'Good Morning';
         // console.log(this.message);
-      } else if (this.hours > 12 && this.hours < 15) {
+      } else if (this.hours >= 12 && this.hours < 16) {
         this.message = 'Good Afternoon';
         // console.log(this.message);
-      } else if (this.hours > 15 && this.hours < 20) {
+      } else if (this.hours >= 16 && this.hours < 20) {
         this.message = 'Good Evening';
-      } else if (this.hours > 21 && this.hours < 0) {
+      } else if (this.hours >= 21 && this.hours < 0) {
         this.message = 'Good Night';
       }
       console.log(this.message);
