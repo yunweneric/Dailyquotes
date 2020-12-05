@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DateComponent implements OnInit {
   constructor() {}
-  title = 'DailyQuotes';
   time: any;
   hours: any;
   message: any;
