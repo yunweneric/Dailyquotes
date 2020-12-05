@@ -11,18 +11,9 @@ export class DateComponent implements OnInit {
   time: any;
   hours: any;
   message: any;
-  hr: any;
-  min: any;
-  sec: any;
-  finale: any;
-
   ngOnInit(): void {
     setInterval(() => {
-      this.time = new Date().getHours();
-      this.hr = new Date().getHours();
-      this.min = new Date().getMinutes();
-      this.sec = new Date().getSeconds();
-      this.finale = `${this.hr} : ${this.min} : ${this.sec}`
+      this.time = new Date();
       console.log(this.time);
       this.hours = new Date().getHours();
       console.log(this.hours);
